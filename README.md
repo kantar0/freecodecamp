@@ -6,29 +6,18 @@ Welcome to my repository, I will be uploading all the projects that I will be de
 
 ---
 
-### Pre-requisitos 📋
+### publications 📋
 
-_Cualquier servidor web que soporte php y mysqlite_
-
-### Instalación 🔧
-
-_En contrucción_
+_All publications will be organized by folder (named by careers)_
 
 
-## Construido con 🛠️
 
-* [Ajax-Jquery](https://api.jquery.com/jquery.ajax/) - AJAX de Jquery
-* [SQLite](https://www.sqlite.org/index.html) - Motor base de datos SQLite
-* [PHP](https://www.php.net/) - PHP
-* [ESC/POS](https://github.com/mike42/escpos-php) - librería para protocolo ESC/POS
-* [Bootstrap](https://getbootstrap.com/) - bootstrap
+## building with 🛠️
 
-## Autores ✒️
-
-* **Pedro Rojas** - *Programador Full-Stack Jr* - [kantar0](https://github.com/kantar0)
-* **Nader Ahmad** - *Programador Front-End* - [naderahmad](https://github.com/naderahmad)
+* [HTML5](https://www.w3schools.com/html/html5_syntax.asp) - HTML5
+* [CSS](https://www.w3schools.com/css/) - CSS3
 
 
 
 ---
-⌨️ con ❤️ por [kantar0](https://github.com/kantar0)  - [kiwilab](https://kiwilab.dev)😊
+⌨️ with ❤️ for [kantar0](https://github.com/kantar0)😊
