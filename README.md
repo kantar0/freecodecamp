@@ -13,7 +13,7 @@ _All publications will be organized by folder (named by careers)_
 
 #### **Responsive Web Desing** :rainbow:
 
-* [Galileo's Tribute Page](https://kantar0.github.io/freecodecamp/responsive-web-design/tribute-page/) - Tribute Page - 3/22/202
+* [Galileo's Tribute Page](https://kantar0.github.io/freecodecamp/responsive-web-design/tribute-page/) - 3/22/2021
 
 
 ---
