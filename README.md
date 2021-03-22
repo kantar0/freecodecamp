@@ -11,11 +11,9 @@ Welcome to my repository, I will be uploading all the projects that I will be de
 _All publications will be organized by folder (named by careers)_
 
 
-#### building with 🛠️
+#### **Responsive Web Desing** 🛠️
 
-* [HTML5](https://www.w3schools.com/html/html5_syntax.asp) - HTML5
-* [CSS](https://www.w3schools.com/css/) - CSS3
-
+* [Galileo's Tribute Page](https://kantar0.github.io/freecodecamp/responsive-web-design/tribute-page/) - Tribute Page - 3/22/202
 
 
 ---
