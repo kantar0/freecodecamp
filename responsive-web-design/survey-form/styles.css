@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+
+html,
+body,main{ 
+    
+    width: 80%;
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 0;;
+    font-family: 'Lato', sans-serif;
+    
+}
+
+header{
+    margin-top: 10%      ;
+    text-align: center;
+}
+#description {
+    margin: 2em 0 2em 0;
+    text-align: center;
+    font-weight: 700;
+}
+
+
+.form-group{
+    padding: 1rem;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+}
+label{ 
+    flex: 30%;
+    width: 100%;
+
+}
+input {
+    flex: 70%;
+    font-size: 1em;
+    height: 2em;
+    border-radius: 3px;
+    border-style: solid;
+    border-color: #e2e2e2;
+}
+
+.required{
+    display: inline-block;
+    color: #ff794f;
+    margin-left: 0.4rem;
+    font-size: 0.9em;
+    padding-bottom: 0px;
+    position: absolute;
+}
+
+form{
+    color: #83868c;
+}
+form p{
+    flex: 30%;
+    width: 100%;
+    color: black;
+}
+
+form select{
+    flex: 70%;
+    width: 100%;
+    
+}
+
+
+#input-radio ul{
+    display: flex;
+    flex-direction: row;
+}
+
+#input-radio ul li{
+    list-style: none;
+    margin: 0 1em;
+}
+#input-radio input{
+    vertical-align: middle;
+}
+
+
+.checkbox input{
+    vertical-align: middle;
+    
+}
+.checkbox label{
+    flex: 10%;
+}
+
+.textarea{
+    display: flex;
+    flex-direction: column;
+}
+.textarea textarea{
+    height: 5rem;
+}
+.textarea p{
+    text-align: left;
+}
+
+.submit{
+    justify-content: center;
+}
+
+#submit{
+    height: 2.5rem;
+    width:30%;
+    border-color: black;
+    text-transform: uppercase;
+    background-color: black;
+    color: white;
+}
+
+
+@media screen and (max-width: 991px) {
+
+    html,
+body,main{ 
+    
+    width: 95%;
+    
+}
+.form-group{
+    flex-direction: column;
+    
+}
+label{ 
+    flex: 100%;
+    margin-bottom: 0.5em;
+}
+input {
+    padding: 0.5em 0;
+}
+
+#dropdown{
+    padding: 0.5em 0;
+}
+.submit{
+    align-items: center;
+}
+#submit{
+    width: 50%;
+}
+#input-radio ul{
+    justify-content: center;
+}
+
+}
+
+@media screen and (max-width: 360px) {
+    #input-radio ul{
+        flex-wrap: wrap;
+    }
+    html,
+body,main{ 
+    
+    width: 98%;
+    
+}
+}
+
+

@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="shortcut icon" type="image/jpg" href="/favicon.jpg" />
+    <title>Survey Form - freecodecamp</title>
+
+</head>
+
+<body>
+    <header>
+        <h1 id="title"> Software Engineer's Job </h1>
+        <p id="description">SUBMIT YOUR APPLICATION</p>
+    </header>
+    <main>
+        <form id="survey-form">
+            <div class="form-group">
+                <label id="name-label" for="name">Name<span class="required">✱</span></label>
+                <input type="text" name="name" id="name" placeholder="Enter your name" required>
+            </div>   
+            <div class="form-group">
+                <label id="email-label" for="email">Email<span class="required">✱</span></label>
+                <input type="email" name="email" id="email" placeholder="Enter your Email" required>
+            </div>
+            <div class="form-group"> 
+                <label id="number-label" for="number">Age<span class="required">✱</span></label>
+                <input type="number" name="age" id="number" min="10" max="99" placeholder="Age" />
+            </div>
+            <div class="form-group select"> 
+                <p>Select current Time Job</p>
+                <select id="dropdown" name="role" required>
+                    <option disabled selected value>Select a Time Job</option>
+                    <option value="full-time-job">Full Time Job</option>
+                    <option value="middle-time-job">Middle Time Job</option>
+                    <option value="full-time-job-remote">Full Time Job Remote</option>
+                </select>
+            </div>
+            <div id="input-radio" class="form-group">
+                <p>Select a role</p>
+                <ul>
+                    <li>
+                        <label>
+                            <input name="user-recommend" value="front-end" type="radio" class="input-radio" checked />
+                            <span>Front-End</span>
+                        </label.>
+                    </li>
+                    <li>
+                        <label>
+                            <label><input name="user-recommend" value="back-end" type="radio" class="input-radio" />
+                            <span>Back-End</span>
+                            </label>
+                        </label.>
+                    </li>
+                    <li>
+                        <label>
+                            <input name="user-recommend" value="full-stack" type="radio" class="input-radio" />
+                            <span>Full-Stack</span>
+                        </label>
+                    </li>
+
+                </ul>
+            
+            </div>
+            <div class="form-group checkbox">
+                <p>Select your programming languages</p>
+                <label><input name="programming-languages" value="front-end-projects" type="checkbox" />Java Script</label>
+                <label><input name="programming-languages" value="back-end-projects" type="checkbox" />Phyton</label>
+                <label><input name="programming-languages" value="data-visualization" type="checkbox" />PHP</label>
+            </div>
+            <div class="form-group textarea">
+                <p>Any comments or suggestions</p>
+                <textarea id="comments" name="comment" placeholder="Enter your comment here..."></textarea>
+            </div>
+            <div class="form-group submit">
+                <button id="submit">Submit application</button>
+            </div>
+
+
+        </form>
+    </main>
+    <script src="app.js"></script>
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+</body>
+
+</html>
