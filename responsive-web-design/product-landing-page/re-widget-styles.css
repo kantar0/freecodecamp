@@ -1,0 +1,13 @@
+@media screen and (max-width: 767px) {
+    .ot-dtp-picker.wide{
+        background-color: blue!important;
+    }
+}
+
+body{
+    background-color: red!important;
+}
+
+.ot-dtp-picker.wide{
+    background-color: red!important;
+}

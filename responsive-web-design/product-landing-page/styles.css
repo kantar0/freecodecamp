@@ -1,0 +1,16 @@
+header{
+    overflow: hidden;
+    background-color:#ffffff;
+}
+.sticky {
+    background-color:#e1bee8;
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+
+
+body{
+    margin: 0;
+    background-color: #ffffff;
+}
