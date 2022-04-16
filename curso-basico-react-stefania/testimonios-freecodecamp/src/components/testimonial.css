@@ -1,0 +1,117 @@
+.testimonial__container {
+  /* -webkit-box-orient: vertical; */
+  -webkit-box-direction: normal;
+  /* background: var(--gray-00); */
+  -webkit-box-shadow: 0 3px 13px 1px rgb(0 0 0 / 9%);
+  box-shadow: 0 3px 13px 1px rgb(0 0 0 / 9%);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  margin: 0 2.5rem;
+  max-width: 350px;
+  padding-bottom: 3rem;
+}
+
+.testimonial__container__text {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  background-color: #0a0a23;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  justify-content: center;
+  padding: 25px;
+  text-align: justify;
+}
+
+.testimonial_meta {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  justify-content: center;
+  padding: 10px 0 30px;
+  text-align: center;
+}
+
+.testimonial__text_position {
+    margin-top: 0.938rem;
+  }
+
+@media (min-width: 992px) {
+  .testimonial__container {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    max-width: none;
+    width: auto;
+  }
+  .testimonial__container__text {
+    padding: 40px;
+  }
+  .testimonial_meta {
+    padding: 0 0 30px;
+  }
+}
+
+@media (max-width: 500px) {
+  .testimonial__container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    box-shadow: 0 3px 13px 1px rgb(0 0 0 / 9%);
+    display: flex;
+    flex-direction: column;
+    margin: 10px 10px 50px;
+    max-width: 350px;
+    padding-bottom: 0.5rem;
+  }
+
+  .testimonial__container__text {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-box-pack: center;
+    background-color: #0a0a23;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 1.563rem;
+    text-align: justify;
+  }
+
+  .testimonial_meta {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    align-items: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10px 0 30px;
+    text-align: center;
+  }
+
+  .testimonial__text_position {
+    margin-top: 0.938rem;
+  }
+}
