@@ -1,0 +1,24 @@
+.Ccounter {
+  min-width: 18.75rem;
+  height: 18.75rem;
+  font-size: 10rem;
+  padding: 1.563px;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 8px solid white;
+  margin-bottom: 15px;
+}
+
+
+@media screen and (max-width: 500px) {
+  .Ccounter {
+    min-width: 80%;
+    height: 100%;
+    font-size: 4.5rem;
+    padding: 0.563px;
+    color: white;
+    padding: 0.65rem;
+  }
+ }
